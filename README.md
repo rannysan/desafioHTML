@@ -37,3 +37,12 @@ A estrutura que será utilizada para os dados é a seguinte:
 	"_id": vNypw3EKd9cuKHu7
 
 }
+
+
+Complementos:
+
+https://coolors.co/694b91-3a4161-9ba9b4-ffffff-fb9795
+https://coolors.co/38c0a2-f8f8f8-02b18b-74d3bf-a0d27d
+https://github.com/rannysan/projetoCursoEmVideo/blob/master/_css/fotos.css
+https://origamid.com/projetos/flexbox-guia-completo/
+https://fonts.google.com/specimen/Luckiest+Guy?selection.family=Luckiest+Guy

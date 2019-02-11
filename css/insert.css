@@ -1,0 +1,53 @@
+#forms{
+    padding-top: 150px;
+    margin-left: 100px;
+    background-color: rgba(255, 255, 255, 0.808);
+}
+
+#forms input{
+    margin: 20px;
+    padding: 5px;
+    font-size: 13pt;
+    border: 1px rgba(0, 0, 0, 0.568) solid;
+    border-radius: 3px;
+}
+
+#forms label{
+    font-size: 16pt;
+}
+
+#forms button{
+    border-radius: 10px;
+    background-color: rgba(137, 43, 226, 0.856);
+    border-style: hidden;
+    padding: 8px;
+    margin: 10px;
+    transition: transform 1seg;
+}
+
+#forms button:hover{
+transform: scale(1.5);
+cursor: pointer;
+
+}
+
+/*Grid*/
+.gridForm{
+    display: grid;
+	grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 650px;
+}
+
+.picInfo{
+    grid-column: 1;
+    text-align: center;
+
+}
+
+.infos{
+    grid-column-start: 2;
+}
+
+#urlfoto{
+    margin: 0px;
+}

@@ -30,7 +30,7 @@ body{
 /*Animação de zoom*/
 .optLista{
     transition: transform .2s; 
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.842);
 }
 
 .optLista:hover {
@@ -148,3 +148,32 @@ img.icon:hover{
 .grid-row-5 .item-5 {
 	grid-row: footer;
 }
+
+/*Pagination*/
+
+.center {
+    text-align: center;
+  }
+  
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    margin: 0 4px;
+  }
+  
+  .pagination a.active {
+    background-color: #694B91;
+    color: white;
+    border: 1px solid #694B91;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: rgb(183, 160, 212);}

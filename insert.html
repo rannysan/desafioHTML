@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Inserir</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/insert.css">
 </head>
 
 <body>
@@ -24,8 +25,43 @@
 
 
 
-    <footer>
+    <section id="forms" class="gridForm">
+        <div class="picInfo">
+                <img id="contPic" src="images/ContatoEx.png" alt="imagem do contato">
+                <br> <button type="button" id="AltFoto">Selecionar Foto</button> <br>
+                
+                <label for="urlfoto">ou <br>Adicione URL</label><br>
+                <input type="text" id="urlfoto" placeholder="url da foto"><br>
+                <button type="submit">Carregar</button>
 
+        </div>
+
+        <div class="infos">
+            <form action="">
+                <label for="fname">Primeiro Nome:</label></br>
+                <input type="text" name="firstname" id="fname" placeholder="Primeiro nome" maxlength="15"></br>
+
+                <label for="lname">Ultimo nome:</label></br>
+                <input type="text" name="lastname" id="lname" placeholder="Ultimo nome" maxlength="15"></br>
+
+                <label for="email">Email:</label></br>
+                <input type="text" name="lastname" id="email" placeholder="exemplo@exemplo.com" maxlength="30"></br>
+
+                <label>Genero:</label></br>
+                <input type="radio" name="gender" id="male" value="male" checked> <label for="male">
+                    Masculino</label><br>
+                <input type="radio" name="gender" id="female" value="female"><label for="female"> Feminino </label><br>
+                <input type="radio" name="gender" id="other" value="other"><label for="other"> Outro </label>
+
+            </form>
+        </div>
+
+    </section>
+
+    <footer id="rodape">
+        <p>
+            &copy; Copyright 2019 - by Raniel Santos
+        </p>
     </footer>
 </body>
 

@@ -1,0 +1,68 @@
+.contGrid {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 325px;
+}
+
+.infoGrid{
+    grid-template-columns:
+        "pic info info"
+        "basic info info"
+    ;
+   
+}
+
+.infoBasic{
+    grid-row: basic;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.contato{
+    padding-top: 100px;
+    background-color: rgba(255, 255, 255, 0.74);
+    height: 650px;
+}
+
+.infoCont{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-column: info;
+    padding-top: 30px;
+}
+
+/*fim das configurações de grid*/
+#contPic{
+    margin-left: 120px;
+}
+
+.contGrid h1{
+    font-size: 30pt;
+}
+
+.infoBasic h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+.contGrid p{
+    font-size: 13pt;
+}
+
+.contGrid h2{
+    font-size: 20pt;
+}
+
+/*Icones*/
+
+.icon2{
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+    transition: transform .2s; 
+}
+
+img.icon2:hover{
+    transform: scale(1.5); 
+}

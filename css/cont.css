@@ -66,3 +66,49 @@
 img.icon2:hover{
     transform: scale(1.5); 
 }
+
+ /*Responsividade*/
+ @media screen and (max-width: 1024px) {
+    .contGrid h1{
+        font-size: 18pt;
+    }
+
+    .contGrid p{
+        font-size: 9pt;
+    }
+    
+    .contGrid h2{
+        font-size: 13pt;
+    }
+
+    #contPic{
+        height: 150px;
+        width: 150px;
+        margin-left: 110px;
+
+    }
+    .infoCont{
+        grid-column: 1;
+        text-align: center;
+        margin-top: -30px;
+    }
+
+    .infoBasic{
+       grid-column: 1;
+    }
+
+    .contGrid {
+        grid-auto-rows: 175px;
+    }
+
+    .icon2{
+        width: 50px;
+        height: 50px; 
+    }
+
+    .contato{
+        padding-top: 100px;
+        background-color: rgba(255, 255, 255, 0.74);
+        height: 800px;
+    }
+ }

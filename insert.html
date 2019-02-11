@@ -13,12 +13,10 @@
 <body>
     <header>
         <nav id="menu">
-            <h1>Contatos</h1>
+            <h1>DigAgenda</h1>
             <ul id="opt">
-                <li><a href="insert.html">Inserir</a></li>
-                <li><a>Alterar</a></li>
-                <li><a>Remover</a></li>
-                <li><a>Listar</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="favoritos.html">Favoritos</a></li>
             </ul>
         </nav>
     </header>
@@ -27,12 +25,12 @@
 
     <section id="forms" class="gridForm">
         <div class="picInfo">
-                <img id="contPic" src="images/ContatoEx.png" alt="imagem do contato">
-                <br> <button type="button" id="AltFoto">Selecionar Foto</button> <br>
-                
-                <label for="urlfoto">ou <br>Adicione URL</label><br>
-                <input type="text" id="urlfoto" placeholder="url da foto"><br>
-                <button type="submit">Carregar</button>
+            <img id="contPic" src="images/ContatoEx.png" alt="imagem do contato">
+            <br> <button class="btn" type="button" id="AltFoto">Selecionar Foto</button> <br>
+
+            <label for="urlfoto">ou <br>Adicione URL</label><br>
+            <input type="text" id="urlfoto" placeholder="url da foto"><br>
+            <button class="btn" type="submit">Carregar</button>
 
         </div>
 
@@ -41,22 +39,42 @@
                 <label for="fname">Primeiro Nome:</label></br>
                 <input type="text" name="firstname" id="fname" placeholder="Primeiro nome" maxlength="15"></br>
 
-                <label for="lname">Ultimo nome:</label></br>
-                <input type="text" name="lastname" id="lname" placeholder="Ultimo nome" maxlength="15"></br>
-
                 <label for="email">Email:</label></br>
-                <input type="text" name="lastname" id="email" placeholder="exemplo@exemplo.com" maxlength="30"></br>
+                <input type="email" name="mailInfo" id="email" placeholder="exemplo@exemplo.com" maxlength="30"></br>
+
+                <label for="company">Empresa:</label> <br>
+                <input type="text" name="compInfo" id="company" placeholder="Empresa" /><br>
 
                 <label>Genero:</label></br>
                 <input type="radio" name="gender" id="male" value="male" checked> <label for="male">
                     Masculino</label><br>
                 <input type="radio" name="gender" id="female" value="female"><label for="female"> Feminino </label><br>
                 <input type="radio" name="gender" id="other" value="other"><label for="other"> Outro </label>
+        </div>
 
-            </form>
+        <div class="moreInfos">
+            <label for="lname">Ultimo nome:</label></br>
+            <input type="text" name="lastname" id="lname" placeholder="Ultimo nome" maxlength="15"></br>
+
+            <label for="adress">Endereço:</label><br>
+            <input type="text" name="adrInfo" id="adress" placeholder="Rua/av, bairro, nº" /><br>
+
+            <label for="phone">Telefone:</label><br>
+            <input type="number" name="telInfo" id="phone" placeholder="(xx)xxxxx-xxxx"><br>
+
+        </div>
+
+        <div class="comInfo">
+            <label for="comment">Comentarios:</label>
+            <textarea name="comInfo" id="comment" cols="150" rows="10"></textarea>
         </div>
 
     </section>
+    <div class="center">
+        <input class="btn" type="submit" value="Cadastrar">
+        <a href="index.html"><input class="btn" type="button" value="Cancelar"></a>
+    </div>
+    </form>
 
     <footer id="rodape">
         <p>

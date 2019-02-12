@@ -252,4 +252,17 @@ img.icon:hover{
         .pagination a {
             padding: 6px 12px;
           }
+
+          #divBusca{
+            border-radius:15px;
+            width:200px;
+            margin-left: auto;
+            margin-right: auto;
+          }
+           
+          #txtBusca{
+            padding-left:5px;
+            font-size:14px;
+            width:160px;
+          }
      }
